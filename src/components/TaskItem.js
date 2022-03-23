@@ -13,7 +13,6 @@ const TaskItem = ({
   return (
     <Fragment>
       {taskList.map((task) => {
-        console.log(task);
         let classNameLi = `${task.status ? "done" : ""} ${
           visibleTask && task.status ? "visible" : ""
         }`;
